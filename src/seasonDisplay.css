@@ -1,0 +1,47 @@
+*{
+    padding: 4px;
+    background-color: #ffff;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.content{
+    color:white;
+    padding:5px;
+    margin:2px;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color: rebeccapurple;
+}
+
+
+.icon-left{
+    position: absolute;
+    left: 10px;
+    top:10px;
+}
+i:last-child{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.winter i{
+    color: aliceblue;
+
+}
+.winter .content{
+    
+    background-color: aliceblue;
+
+}
+.summer i{
+    color:orange;
+
+}
+.summer .content{
+    background-color: orange;
+    
+}
